@@ -1,0 +1,31 @@
+<service>
+	<id>desco_node_server.exe</id>
+	<name>DESCO_Node_Server</name>
+	<description>DESCO Node Server</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>C:\Users\Administrator\AppData\Roaming\npm\node_modules\qckwinsvc2\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>E:\Projects\DESCO\BackEnd-Server\bin\www</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>DESCO_Node_Server wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>WIN-8RH5NPS3ISF</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>E:\Projects\DESCO\BackEnd-Server</workingdirectory>
+</service>

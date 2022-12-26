@@ -1,0 +1,26 @@
+<service>
+	<id>descoreport.exe</id>
+	<name>DESCOREPORT</name>
+	<description>DESCO Report Module Developed by Tiller</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<logmode>rotate</logmode>
+	<argument>--harmony</argument>
+	<argument>D:\DESCO_Report\BackEnd\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>D:\DESCO_Report\BackEnd\bin\www</argument>
+	<argument>--log</argument>
+	<argument>DESCOREPORT wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<stoptimeout>30sec</stoptimeout>
+	<workingdirectory>D:\DESCO_Report\BackEnd</workingdirectory>
+	<author>Shounok Rahman</author>
+</service>
